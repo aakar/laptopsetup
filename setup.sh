@@ -20,7 +20,7 @@ basicSetup() {
   		yes | ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 	fi
 
-	if [ ! -d ~/.laptop ]; then
+	if [ ! -d ~/.laptopsetup ]; then
   		git clone https://github.com/aakar/laptopsetup.git ~/.laptopsetup
 	fi
 	chmod 755 ~/.laptopsetup
