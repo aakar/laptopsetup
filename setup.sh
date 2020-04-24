@@ -13,6 +13,7 @@ if [[ $type == "" ]]; then
 fi
 
 basicSetup() {
+	
 	echo "## Basic Setup ##"
 	if ! command -v brew > /dev/null 2>&1; then
   		echo "Installing homebrew"
@@ -22,7 +23,7 @@ basicSetup() {
 	if [ ! -d ~/.laptop ]; then
   		git clone https://github.com/aakar/laptopsetup.git ~/.laptopsetup
 	fi
-
+	chmod 755 ~/.laptopsetup
 	source ./install-zsh.sh
 	setupMacOS
 }
