@@ -8,9 +8,13 @@ brew upgrade
 
 # Installs Casks
 brew tap homebrew/cask-cask
+brew tap homebrew/cask-fonts
 
 ## Install CLI Apps
 brew install mas
+
+# Install Font for Alfred Theme
+brew cask install font-fira-code
 
 ## Install Apps
 # Terminal Tools
@@ -39,6 +43,7 @@ brew cask install rocket
 
 # Other Tools
 brew cask install keybase
+#brew cask install 
 
 # Choose what browser you'd like to open the link in.
 brew cask install choosy
