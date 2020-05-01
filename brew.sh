@@ -43,7 +43,7 @@ brew cask install keybase
 # Choose what browser you'd like to open the link in.
 brew cask install choosy
 brew cask install spotify
-brew cask install skype
+#brew cask install skype
 brew cask install soulver
 brew cask install toggl
 # Controlling the size of windows
@@ -87,3 +87,5 @@ mas install 880001334
 # Skitch
 mas install 425955336
 
+#Spark
+# mas install 1176895641

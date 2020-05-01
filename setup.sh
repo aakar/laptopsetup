@@ -31,6 +31,11 @@ basicSetup() {
 generalInstall() {
 	echo "## Installing General Apps ##"
 	source brew.sh
+}
+
+work() {
+	echo '## Installing Additional Work Apps ##'
+	source workbrew.sh
 } 
 
 setupMacOS() {
@@ -44,6 +49,8 @@ setupMacOS() {
 if [[ $type == "-work" ]]; then
 	echo "Work"
 	basicSetup
+	generalInstall
+
 fi
 
 if [[ $type == "-personal" ]]; then
