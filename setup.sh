@@ -50,6 +50,7 @@ if [[ $type == "-work" ]]; then
 	echo "Work"
 	basicSetup
 	generalInstall
+	work
 
 fi
 
