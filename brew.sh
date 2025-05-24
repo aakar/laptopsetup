@@ -17,6 +17,7 @@ brew install mas
 ## Install Apps
 # Terminal Tools
 brew cask install iterm2
+brew cask install warp
 
 # Important Tools
 brew cask install 1password
